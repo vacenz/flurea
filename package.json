@@ -1,0 +1,33 @@
+{
+  "name": "flurea",
+  "version": "0.0.1",
+  "description": "minimal flux library",
+  "keywords": [
+    "flux",
+    "react",
+    "flurea"
+  ],
+  "main": "index.js",
+  "author": "isekivacenz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekivacenz/flurea"
+  },
+  "bugs": "https://github.com/isekivacenz/flurea/issues",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "src",
+    "scriptPreprocessor": "../jest-preprocessor.js"
+  },
+  "dependencies": {
+    "flux": "^2.0.1",
+    "invariant": "^1.0.2",
+    "object-assign": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^5.9.1"
+  }
+}
